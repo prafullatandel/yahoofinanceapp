@@ -1,0 +1,27 @@
+.mask-loader-wrapper{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,.37);
+  z-index: 1200;
+  img{
+    position: absolute;
+    top: 40%;
+    left: calc(50% - 30px);
+    max-width: 60px;
+  }
+}
+
+.comonent-mask-loader-wrapper{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,.37);
+  z-index: 1200;
+  img{
+    position: absolute;
+    top: calc(30%);
+    left: calc(30% - 30px);
+    max-width: 60px;
+  }
+}
